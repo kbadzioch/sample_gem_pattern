@@ -2,3 +2,5 @@
 coverage/*
 Gemfile.lock
 .bundle
+
+spec/examples.txt

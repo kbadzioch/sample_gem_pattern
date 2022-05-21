@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   # Exatra files used by rdoc generator
   spec.extra_rdoc_files = ['README.md']
 
+  spec.add_development_dependency 'rspec', '~> 3.11'
   spec.add_development_dependency 'rubocop', '~> 1.29'
   spec.add_development_dependency 'rubocop-performance', '~> 1.13'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.10'
