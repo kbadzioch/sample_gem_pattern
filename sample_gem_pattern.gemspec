@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require_relative 'lib/sample_gem_pattern/version.rb'
+
 Gem::Specification.new do |spec|
   spec.name        = 'sample_gem_pattern'
-  spec.version     = '0.0.0'
+  spec.version     = SampleGemPattern::VERSION
   spec.summary     = 'Simple gem pattern'
   spec.description = 'Simple gem that has been written for learnign purpose.'
   spec.authors     = ['Konrad Badzioch']
